@@ -9,12 +9,10 @@ source:
 requirements:
   build:
     - libnetcdf
-    - lapack
     - zlib
     - bzip2
   run:
     - libnetcdf
-    - lapack
     - zlib
     - bzip2
 
