@@ -19,4 +19,4 @@ requirements:
 about:
     home: https://github.com/amber-md/cpptraj/
     license: GNU
-    summary: libcpptraj
+    summary: libcpptraj and cpptraj.OMP
