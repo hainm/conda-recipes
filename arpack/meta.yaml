@@ -10,9 +10,9 @@ source:
 requirements:
   build:
     - f2c
-    - openblas
+    - blas
   run:
-    - openblas
+    - blas
 
 about:
   home: https://github.com/opencollab/arpack-ng

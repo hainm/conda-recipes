@@ -1,7 +1,7 @@
 #!/bin/sh
 
-bash ./configure -shared --with-arpack=$PREFIX --with-lapack=$PREFIX --with-netcdf=$PREFIX -openmp gnu
-make libcpptraj -j8
+bash ./configure -shared --with-arpack=$PREFIX --with-lapack=$PREFIX --with-netcdf=$PREFIX --with-blas=$PREFIX -openmp gnu
+make libcpptraj -j${CPU_COUNT}
 
 mkdir -p $PREFIX/include/cpptraj/
 
