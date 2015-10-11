@@ -8,15 +8,23 @@ source:
 
 requirements:
   build:
-    - libnetcdf
     - zlib
     - bzip2
+    - libnetcdf
+    - lapack
+    - arpack
+    - openblas
+    - libgfortran
   run:
-    - libnetcdf
     - zlib
     - bzip2
+    - libnetcdf
+    - lapack
+    - arpack
+    - openblas
+    - libgfortran
 
 about:
     home: https://github.com/amber-md/cpptraj/
     license: GNU
-    summary: libcpptraj and cpptraj.OMP
+    summary: libcpptraj

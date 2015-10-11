@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # serial
-bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX gnu
+bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX gnu
 make install -j8
 make clean
 
