@@ -1,0 +1,30 @@
+package:
+  name: cpptraj-dev
+  version: 4.2.7
+
+source:
+  git_url: https://github.com/amber-md/cpptraj.git
+  git_tag: master
+
+requirements:
+  build:
+    - zlib
+    - bzip2
+    - libnetcdf
+    - lapack
+    - arpack
+    - openblas
+    - libgfortran
+  run:
+    - zlib
+    - bzip2
+    - libnetcdf
+    - lapack
+    - arpack
+    - openblas
+    - libgfortran
+
+about:
+    home: https://github.com/amber-md/cpptraj/
+    license: GNU
+    summary: serial cpptraj and openmp cpptraj
