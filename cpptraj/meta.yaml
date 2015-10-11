@@ -13,7 +13,6 @@ requirements:
     - libnetcdf
     - lapack
     - arpack
-    - openblas
     - libgfortran
   run:
     - zlib
@@ -21,7 +20,6 @@ requirements:
     - libnetcdf
     - lapack
     - arpack
-    - openblas
     - libgfortran
 
 about:

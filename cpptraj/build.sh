@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # serial
-bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX gnu
-make install -j8
-make clean
+bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX --with-blas=$PREFIX gnu
+make install -j${CPU_COUNT}
 
 # openmp
-bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX -openmp gnu
-make install -j8
+#make clean
+#bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX -openmp --with-blas=$PREFIX gnu
+#make install -j${CPU_COUNT}
 
 mkdir -p $PREFIX/include/cpptraj/
 

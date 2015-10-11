@@ -11,17 +11,17 @@ requirements:
     - zlib
     - bzip2
     - libnetcdf
-    - lapack
-    - arpack
-    - blas
+      #- lapack
+      #- arpack
+      #- blas
     - libgfortran
   run:
     - zlib
     - bzip2
     - libnetcdf
-    - lapack
-    - arpack
-    - blas
+      #- lapack
+      #- arpack
+      #- blas
     - libgfortran
 
 about:
