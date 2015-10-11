@@ -5,7 +5,8 @@ CC     	 = cc
 PREFIX := $(shell echo $(PREFIX))
 CFLAGS := -O3 -fPIC -I$(PREFIX)/include
 F2C_LDFLAGS = -L$(PREFIX)/lib -lf2c
-LDFLAGS = -lblas -llapack
+#LDFLAGS = -lblas -llapack
+LDFLAGS = -lopenblas -llapack
 
 F_SRC := $(wildcard SRC/*.f) $(wildcard UTIL/*.f)
 C_SRC := $(patsubst %.f,%.c,$(F_SRC))
