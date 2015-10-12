@@ -13,6 +13,8 @@ requirements:
     build:
         - cmake
         - python
+    run:
+        - blas
 
 about:
     home: http://www.netlib.org/lapack
