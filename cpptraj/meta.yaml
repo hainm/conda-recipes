@@ -24,6 +24,11 @@ requirements:
     - arpack
     - libgfortran
 
+test:
+  commands:
+    - cpptraj --defines
+    - cpptraj.OMP --defines
+
 about:
     home: https://github.com/amber-md/cpptraj/
     license: GNU
