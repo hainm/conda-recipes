@@ -1,0 +1,31 @@
+package:
+  name: ambermini
+  version: 15.0.4
+
+source:
+  fn: 15.0.4.zip
+  url: https://github.com/choderalab/ambermini/archive/15.0.4.zip
+  md5: 5c72ad3ff91d05b3e10f7610b2149107
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - zlib
+    - gcc      [osx]
+    - mingwpy  [win]
+  run:
+    - zlib
+    - gcc      [osx]
+
+test:
+  commands:
+    - antechamber -h
+    - sqm -h
+    - tleap -h
+
+about:
+  home: https://github.com/choderalab/ambermini/
+  license: LGPL
+  summary: A stripped-down version of AmberTools 14 containing antechamber, sqm, tleap, and parmchk2
