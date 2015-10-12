@@ -6,22 +6,23 @@ source:
   git_url: https://github.com/amber-md/cpptraj.git
   git_tag: master
 
+
 requirements:
   build:
     - zlib
     - bzip2
     - libnetcdf
-      #- lapack
-      #- arpack
-      #- blas
+    - lapackamber
+    - arpack
+    - blasamber
     - libgfortran
   run:
     - zlib
     - bzip2
     - libnetcdf
-      #- lapack
-      #- arpack
-      #- blas
+    - lapackamber
+    - arpack
+    - blasamber
     - libgfortran
 
 about:
