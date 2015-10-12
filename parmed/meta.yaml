@@ -1,18 +1,28 @@
 package:
-  name: parmed-dev
-  version: 2.0.2
+  name: parmed
+  version: !!str 2.0beta3
 
 source:
-  git_url: https://github.com/parmed/parmed
-  git_tag: master
+  fn: ParmEd-2.0-beta3.tar.gz
+  url: https://github.com/ParmEd/ParmEd/archive/v2.0-beta3.tar.gz
+  md5: 62df64e824f691cbfc46c746701e04bf
+
+build:
+  number: 3
 
 requirements:
   build:
+    - python
     - numpy
+    - setuptools
+
   run:
+    - python
     - numpy
+    - pandas
+    - openmm
 
 about:
-    home: http://parmed.github.io/ParmEd 
-    license: LESSER GPL
-    summary: Cross-program parameter and topology file editor and molecular mechanical simulator engine. 
+  home: http://parmed.github.io/ParmEd
+  license: GNU Lesser General Public License v2 or later (LGPLv2+)
+  summary: A package for parsing, interconverting, manipulating, and simulating biomolecular simulations with many packages

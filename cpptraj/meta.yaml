@@ -11,18 +11,20 @@ requirements:
     - zlib
     - bzip2
     - libnetcdf
-    - lapack
+    - lapackamber
+    - blasamber
     - arpack
     - libgfortran
   run:
     - zlib
     - bzip2
     - libnetcdf
-    - lapack
+    - lapackamber
+    - blasamber
     - arpack
     - libgfortran
 
 about:
     home: https://github.com/amber-md/cpptraj/
     license: GNU
-    summary: serial cpptraj and openmp cpptraj
+    summary: Biomolecular simulation trajectory/data analysis.

@@ -1,4 +1,2 @@
-#!/bin/sh
-
-$PYTHON setup.py clean
+#!/bin/bash
 $PYTHON setup.py install
