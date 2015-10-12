@@ -5,10 +5,7 @@ bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREF
 make install -j${CPU_COUNT}
 
 # openmp
-make clean
-bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX --with-blas=$PREFIX gnu
-make install -j${CPU_COUNT}
-
-mkdir -p $PREFIX/include/cpptraj/
+#bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX --with-blas=$PREFIX -openmp gnu
+#make install -j${CPU_COUNT}
 
 cp bin/cpptraj* $PREFIX/bin/

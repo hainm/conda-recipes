@@ -27,7 +27,7 @@ requirements:
 test:
   commands:
     - cpptraj --defines
-    - cpptraj.OMP --defines
+      #- cpptraj.OMP --defines
 
 about:
     home: https://github.com/amber-md/cpptraj/
