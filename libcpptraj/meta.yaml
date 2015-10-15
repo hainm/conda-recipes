@@ -6,20 +6,20 @@ source:
   git_url: https://github.com/amber-md/cpptraj.git
   git_tag: master
 
-
 requirements:
   build:
     - zlib
     - bzip2
     - libnetcdf
-    - libgfortran
+    - lapack
   run:
     - zlib
     - bzip2
     - libnetcdf
     - libgfortran
+    - lapack
 
 about:
     home: https://github.com/amber-md/cpptraj/
     license: GNU
-    summary: libcpptraj
+    summary: Biomolecular simulation trajectory/data analysis. 

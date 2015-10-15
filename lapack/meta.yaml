@@ -6,16 +6,12 @@ source:
   fn: lapack-3.5.0.tgz
   url: http://www.netlib.org/lapack/lapack-3.5.0.tgz
 
-build:
-  number: 1
-
 requirements:
     build:
         - cmake
         - python
     run:
-        - blas
-
+        - libgfortran
 about:
     home: http://www.netlib.org/lapack
     license: GNU Lesser General Public License (LGPL)

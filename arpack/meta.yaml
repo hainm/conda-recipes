@@ -10,8 +10,8 @@ source:
 requirements:
   build:
     - f2c
-    - blasamber
-    - lapackamber
+    - lapack
+    - blas
 
 about:
   home: https://github.com/opencollab/arpack-ng
