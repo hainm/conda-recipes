@@ -11,13 +11,15 @@ requirements:
     - zlib
     - bzip2
     - libnetcdf
-    - lapack
+    - lapackamber
+    - blasamber
   run:
     - zlib
     - bzip2
     - libnetcdf
     - libgfortran
-    - lapack
+    - lapackamber
+    - blasamber
 
 about:
     home: https://github.com/amber-md/cpptraj/

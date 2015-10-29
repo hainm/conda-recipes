@@ -10,6 +10,7 @@ requirements:
     build:
         - cmake
         - python
+        - libgfortran
     run:
         - libgfortran
 about:

@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#bash ./configure --with-netcdf=$PREFIX -openmp -shared -nomathlib gnu
-
 # only need netcdf, lapack (with blas)
 bash ./configure --with-netcdf=$PREFIX -openmp -shared --with-blas=$PREFIX/ --with-lapack=$PREFIX/ -noarpack gnu
 make libcpptraj -j${CPU_COUNT}
