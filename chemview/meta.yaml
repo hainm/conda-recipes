@@ -1,0 +1,29 @@
+package:
+  name: chemview
+  version: !!str 0.3
+
+source:
+  git_url: https://github.com/hainm/chemview.git
+  git_tag: pytraj_contrib
+
+requirements:
+  build:
+    - python
+    #- distribute
+
+  run:
+    - python
+    #- distribute
+    - ipython-notebook
+    - jupyter
+    - numpy
+    - numba
+
+test:
+  imports:
+    - chemview
+
+about:
+  home: http://chemview.rtfd.org
+  license: GNU Lesser General Public License v2 or later (LGPLv2+)
+  summary: WebGL Molecular Viewer for IPython notebook.
