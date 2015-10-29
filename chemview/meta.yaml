@@ -19,10 +19,6 @@ requirements:
     - numpy
     - numba
 
-test:
-  imports:
-    - chemview
-
 about:
   home: http://chemview.rtfd.org
   license: GNU Lesser General Public License v2 or later (LGPLv2+)
