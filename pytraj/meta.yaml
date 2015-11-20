@@ -17,6 +17,7 @@ requirements:
     - libcpptraj-dev
     - libnetcdf
     - numpy
+
 test:
   commands:
     - python -c 'import pytraj as pt; pt.show_versions()'
