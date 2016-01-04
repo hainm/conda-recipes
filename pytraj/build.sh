@@ -3,6 +3,5 @@
 export CPPTRAJ_LIBDIR=$PREFIX/lib/
 export CPPTRAJ_HEADERDIR=$PREFIX/include/cpptraj/
 
-#cp -r $RECIPE_DIR/../../.. $SRC_DIR
 $PYTHON setup.py clean
-$PYTHON setup.py install openmp
+$PYTHON setup.py install
