@@ -15,14 +15,14 @@ requirements:
     - traitlets
   run:
     - python
-    - pytraj-dev
     - ipywidgets
     - ipython
     - traitlets
+    - notebook
 
 test:
   commands:
-    - python -c 'import nglview as nv; nv.Structure("")'
+    - python -c 'import nglview as nv'
 
 about:
   home: https://github.com/arose/nglview 
