@@ -19,3 +19,12 @@
 3. Notes
 
     - There is no auto-build for all packages yet
+
+4. How?
+
+    ```bash
+    conda build cpptraj/
+    conda build libcpptraj/
+    ./pytraj/run_build.sh # for py2.7, 3.4, 3.5
+    ```
+and so on.
