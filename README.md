@@ -15,3 +15,7 @@
     ```
     
     See also: http://docs.anaconda.org/using.html#UploadingPackagesToAnOrganization
+
+3. Notes
+
+    - There is no auto-build for all packages yet
