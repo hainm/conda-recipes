@@ -5,6 +5,7 @@ bash ./configure \
     --with-netcdf=$PREFIX \
     --with-blas=$PREFIX \
     -openblas \
+    -noarpack \
     gnu
 
 make install -j${CPU_COUNT}
@@ -15,6 +16,7 @@ bash ./configure \
     --with-netcdf=$PREFIX \
     --with-blas=$PREFIX \
     -openblas \
+    -noarpack \
     -openmp \
     gnu
 
