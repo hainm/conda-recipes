@@ -1,11 +1,12 @@
 #!/bin/sh
 
 # serial
-bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX --with-blas=$PREFIX gnu
-make install -j${CPU_COUNT}
+bash ./configure \
+    --with-netcdf=$PREFIX \
+    --with-blas=$PREFIX \
+    -openblas \
+    gnu
 
-# openmp
-#bash ./configure --with-arpack=$PREFIX --with-netcdf=$PREFIX --with-lapack=$PREFIX --with-blas=$PREFIX -openmp gnu
-#make install -j${CPU_COUNT}
+make install -j${CPU_COUNT}
 
 cp bin/cpptraj* $PREFIX/bin/
