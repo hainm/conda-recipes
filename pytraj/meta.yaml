@@ -20,7 +20,7 @@ requirements:
 
 test:
   commands:
-    - python -c 'import pytraj as pt; pt.show_versions()'
+    - python -c 'import pytraj as pt; pt.show_versions(); from pytraj.testing import get_remd_fn'
 
 about:
   home: http://github.com/amber-md/pytraj

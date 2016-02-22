@@ -5,7 +5,6 @@
 - login to you account in bash terminal, use your own account that has administration permission.
     
     anaconda login
-    # enter your name and password
 
 - upload
 

@@ -1,9 +1,0 @@
-package:
-  name: lapackamber
-  version: "3.2"
-
-requirements:
-  build:
-      - libgfortran
-  run:
-      - libgfortran
