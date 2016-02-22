@@ -1,5 +1,14 @@
 1. run 'conda config --add channels https://conda.binstar.org/ambermd' before build.
 
-2. currently, I don't have a good solution to build lapack and blas in amber with conda.
-So just copy lapackamber to $AMBERHOME/AmberTools/src/lapack/, then go to that folder,
-`conda build lapackamber` to use config.h file
+2. Upload package to ambermd channel.
+
+- login to you account in bash terminal, use your own account that has administration permission.
+    
+    anaconda login
+    # enter your name and password
+
+- upload
+
+    anaconda upload --user ambermd package.tar.bz2
+
+See also: http://docs.anaconda.org/using.html#UploadingPackagesToAnOrganization
