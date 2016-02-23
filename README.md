@@ -25,6 +25,7 @@
     ```bash
     conda build cpptraj/
     conda build libcpptraj/
-    ./pytraj/run_build.sh # for py2.7, 3.4, 3.5
+    ./run_build.sh pytraj/ # for py2.7, 3.4, 3.5
+    ./run_build.sh parmed/ # for py2.7, 3.4, 3.5
     ```
 and so on.

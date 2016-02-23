@@ -10,13 +10,13 @@ requirements:
   build:
     - python
     - setuptools
-    - ipython
+    - jupyter
     - ipywidgets
     - traitlets
   run:
     - python
     - ipywidgets
-    - ipython
+    - jupyter
     - traitlets
     - notebook
 
