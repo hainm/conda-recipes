@@ -1,0 +1,24 @@
+package:
+  name: pysander
+  version: 16.0
+
+source:
+  git_url: https://github.com/amber-md/pysander.git
+  git_tag: master
+
+build:
+  number: 1
+
+requirements:
+  run:
+    - parmed
+
+test:
+  commands:
+      - python -c "import sander"
+      - python -c "import sanderles"
+
+about:
+    home: https://github.com/amber-md/pysander
+    license: LGPL
+    summary: Python bindings to sander
