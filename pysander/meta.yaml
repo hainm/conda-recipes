@@ -12,8 +12,11 @@ build:
       - AMBERHOME
 
 requirements:
-  run:
-    - parmed
+    build:
+        - python
+    run:
+        - python
+        - parmed
 
 test:
   commands:
