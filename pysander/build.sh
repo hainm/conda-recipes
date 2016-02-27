@@ -6,7 +6,7 @@ fail() {
     exit 1
 }
 
-test -z $AMBERHOME || fail "Missing AMBERHOME"
+test -z $AMBERHOME && fail "Missing AMBERHOME"
 test -f "$AMBERHOME/lib/libsander.so" || fail "Missing libsander.so"
 test -f "$AMBERHOME/lib/libsanderles.so" || fail "Missing libsanderles.so"
 test -f "$AMBERHOME/include/sander.h" || fail "Missing sander.h"
