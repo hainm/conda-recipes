@@ -1,5 +1,5 @@
 package:
-  name: parmed-dev
+  name: parmed
   version: !!str 2.3.2
 
 source:
