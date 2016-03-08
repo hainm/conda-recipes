@@ -1,6 +1,6 @@
 package:
   name: cpptraj-dev
-  version: 4.2.7
+  version: 4.3.0
 
 source:
   git_url: https://github.com/amber-md/cpptraj.git
@@ -11,23 +11,19 @@ requirements:
     - zlib
     - bzip2
     - libnetcdf
-    - lapackamber
-    - blasamber
-    - arpack
+    - openblas
     - libgfortran
   run:
     - zlib
     - bzip2
     - libnetcdf
-    - lapackamber
-    - blasamber
-    - arpack
+    - openblas
     - libgfortran
 
 test:
   commands:
     - cpptraj --defines
-      #- cpptraj.OMP --defines
+    - cpptraj.OMP --defines
 
 about:
     home: https://github.com/amber-md/cpptraj/

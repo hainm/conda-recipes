@@ -1,8 +1,0 @@
-package:
-  name: libsaxs
-  version: "16.0"
-
-about:
-    home: http://ambermd.org/doc12/Amber15.pdf
-    license: GNU
-    summary: A program for computing Small angle X-ray scattering curves from MD simulation

@@ -1,14 +1,10 @@
 package:
   name: parmed
-  version: !!str 2.0beta3
+  version: !!str 2.3.2
 
 source:
-  fn: ParmEd-2.0-beta3.tar.gz
-  url: https://github.com/ParmEd/ParmEd/archive/v2.0-beta3.tar.gz
-  md5: 62df64e824f691cbfc46c746701e04bf
-
-build:
-  number: 3
+  git_url: https://github.com/ParmEd/ParmEd.git
+  git_tag: master
 
 requirements:
   build:
@@ -19,8 +15,11 @@ requirements:
   run:
     - python
     - numpy
-    - pandas
-    - openmm
+
+test:
+  commands:
+    - python -c 'import parmed as pmd; print(pmd.load_file)'
+
 
 about:
   home: http://parmed.github.io/ParmEd
