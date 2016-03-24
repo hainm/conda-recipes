@@ -1,11 +1,6 @@
 #!/bin/sh
 
-bash ./configure --with-netcdf=$PREFIX \
-                 --with-blas=$PREFIX \
-                 --with-bzlib=$PREFIX \
-                 --with-zlib=$PREFIX \
-                 -shared \
-                 -openblas -noarpack gnu
+bash ./configure -shared -noarpack gnu
 make libcpptraj -j${CPU_COUNT}
 
 mkdir -p $PREFIX/include/cpptraj/
