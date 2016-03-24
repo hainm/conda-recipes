@@ -4,7 +4,6 @@ bash ./configure --with-netcdf=$PREFIX \
                  --with-blas=$PREFIX \
                  --with-bzlib=$PREFIX \
                  --with-zlib=$PREFIX \
-                 -openmp \
                  -shared \
                  -openblas -noarpack gnu
 make libcpptraj -j${CPU_COUNT}
