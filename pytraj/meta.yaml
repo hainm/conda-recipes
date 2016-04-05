@@ -25,4 +25,4 @@ test:
 about:
   home: http://github.com/amber-md/pytraj
   license: BSD
-  summary: Python wrapper for cpptraj - a package for data analysis of MD simulations
+  summary: Python API for cpptraj - a package for data analysis of MD simulations
