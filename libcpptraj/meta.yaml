@@ -1,6 +1,6 @@
 package:
-  name: libcpptraj-dev
-  version: 4.2.9
+  name: libcpptraj
+  version: 4.3.0
 
 source:
   git_url: https://github.com/amber-md/cpptraj.git
