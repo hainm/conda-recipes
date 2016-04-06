@@ -72,5 +72,5 @@ if __name__ == '__main__':
 
     print(meta_str)
 
-    with open('meta.yaml', 'w') as fh:
+    with open('pytraj/meta.yaml', 'w') as fh:
         fh.write(meta_str)
