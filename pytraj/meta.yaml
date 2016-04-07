@@ -17,7 +17,7 @@ requirements:
     - libnetcdf
   run:
     - python
-    - libcpptraj-dev
+    - libcpptraj 4.3.0
     - libnetcdf
     - numpy
 

@@ -16,7 +16,7 @@ requirements:
     - libnetcdf
   run:
     - python
-    - libcpptraj-dev
+    - libcpptraj {libcpptraj_version}
     - libnetcdf
     - numpy
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
             action='store_true')
     parser.add_argument('--version',
             help='pytraj version',
-            default='1.3.0')
+            default='1.0.3')
     args = parser.parse_args(sys.argv[1:])
 
     is_released = args.release
