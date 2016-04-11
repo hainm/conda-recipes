@@ -1,6 +1,6 @@
 package:
   name: parmed
-  version: !!str 2.4.3
+  version: !!str 2.4.5
 
 source:
   git_url: https://github.com/ParmEd/ParmEd.git
