@@ -26,7 +26,7 @@ test:
 
 about:
   home: http://github.com/amber-md/pytraj
-  license: GPL v3 
+  license: GPL v3
   summary: Python API for cpptraj - a package for data analysis of MD simulations
 """
 
