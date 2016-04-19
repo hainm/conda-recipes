@@ -33,6 +33,12 @@ Introduction/Steps
     ```
 and so on.
 
+5. Remove package from anaconda
+
+    ```bash
+    $ anaconda remove ambermd/package_name
+    ```
+
 Package-specific notes
 ----------------------
 
