@@ -1,10 +1,11 @@
 package:
   name: parmed
-  version: !!str 2.4.5
+  version: !!str 2.5.1
 
 source:
-  git_url: https://github.com/ParmEd/ParmEd.git
-  git_tag: master
+  fn: ParmEd-2.5.1.tar.gz
+  url: https://github.com/ParmEd/ParmEd/archive/2.5.1.tar.gz
+  md5: 8e301524254a63e0523243c059558d69
 
 requirements:
   build:
