@@ -1,5 +1,5 @@
-bash ./configure ^
-                 --with-zlib=$PREFIX ^
+bash configure ^
+                 --with-zlib=%PREFIX% ^
 		 -nobzlib ^
 		 -nomathlib ^
 		 -nonetcdf ^
@@ -9,7 +9,7 @@ bash ./configure ^
 
 c:\mingw32\bin\mingw32-make.exe libcpptraj -j8
 
-mkdir -p $PREFIX/include/cpptraj/
+mkdir -p %PREFIX%\include\cpptraj\
 
-cp lib/libcpptraj* $PREFIX/lib/
-cp src/*.h $PREFIX/include/cpptraj/
+cp lib/libcpptraj.so %PREFIX%/lib/
+cp src/*.h %PREFIX%/include/cpptraj/
