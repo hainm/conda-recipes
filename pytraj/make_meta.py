@@ -48,14 +48,14 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('-lc',
             '--libcpptraj-version',
-            default='4.3.0',
+            default='4.3.1',
             help='libcpptraj version')
     parser.add_argument('-r',
             '--release',
             action='store_true')
     parser.add_argument('--version',
             help='pytraj version',
-            default='1.0.3')
+            default='1.0.6')
     args = parser.parse_args(sys.argv[1:])
 
     is_released = args.release
