@@ -1,23 +1,24 @@
 
 package:
   name: pytraj
-  version: !!str 1.0.3
+  version: !!str 1.0.6
 
 source:
 
-  fn: pytraj-1.0.3.tar.gz
-  url: https://pypi.python.org/packages/source/p/pytraj/pytraj-1.0.3.tar.gz
+  fn: pytraj-1.0.6.tar.gz
+  # url: https://pypi.python.org/packages/source/p/pytraj/pytraj-1.0.6.tar.gz
+  url: https://anaconda.org/hainm/pytraj/1.0.6/download/pytraj-1.0.6.tar.gz
 
 
 requirements:
   build:
     - python
     - cython
-    - libcpptraj 4.3.0
+    - libcpptraj 4.3.1
     - libnetcdf
   run:
     - python
-    - libcpptraj 4.3.0
+    - libcpptraj 4.3.1
     - libnetcdf
     - numpy
 

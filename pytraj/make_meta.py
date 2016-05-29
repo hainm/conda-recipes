@@ -37,7 +37,8 @@ source_git = """
 
 source_pypi = """
   fn: pytraj-{pytraj_version}.tar.gz
-  url: https://pypi.python.org/packages/source/p/pytraj/pytraj-{pytraj_version}.tar.gz
+  # url: https://pypi.python.org/packages/source/p/pytraj/pytraj-{pytraj_version}.tar.gz
+  url: https://anaconda.org/hainm/pytraj/1.0.6/download/pytraj-{pytraj_version}.tar.gz
 """
 
 
